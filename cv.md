@@ -13,3 +13,10 @@ At the moment users are not able to get statistics, but I am working on it. The 
 [Server code](https://github.com/CrazyReborn/jhunt), [client](https://github.com/CrazyReborn/jhunt-client).
 No live version at the moment because I didn't plan to show it to anyone anytime soon.
 6. Except the project above I don't have anything advanced. I have some basic projects like
+[Battleship page](https://crazyreborn.github.io/ odin-battleship/) and 
+[code](https://github.com/CrazyReborn/odin-battleship),[pancake page](https://crazyreborn.github.io/odin-restaurant/) and
+[code](https://github.com/CrazyReborn/odin-restaurant), both written using only JS, but nothing fancy.
+7. Bachelor of medicine.
+8. I learned English in school and then improved my knowledge in the university.
+I've read a lot of medical paper in English and use it while learning to code. I can discuss both simple topics and abstract once.
+I can watch movies, read books, play videogames all in English.
