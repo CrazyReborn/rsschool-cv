@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30em 0;
+}
+
+.navbar-item {
+  list-style-type: none;
+}
