@@ -50,6 +50,8 @@ a.active {
   background-image: url("./assets/bg-image.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
   color: white;
 }
 
@@ -63,7 +65,7 @@ a.active {
 
 .life-block > p {
   font-size: 18px;
-  margin: 1% 37% 1%;
+  margin: 1% 35% 1%;
   text-align: center;
   font-weight: 600;
 }
@@ -72,7 +74,7 @@ a.active {
   margin-top: 1%;
   font-weight: 600;
   font-size: 14px;
-  padding: 1em 2em 1em;
+  padding: 1em 3em 1em;
   outline: none;
   border: none;
   background-color: #00AFDB;
@@ -109,13 +111,15 @@ ul {
 }
 
 .left-container {
+  display: flex;
   width: 50%;
   font-weight: 400;
+  justify-content: center;
 }
 
 .text-content {
-  width: 50%;
-  margin: 30% 30% 10%;
+  width:60%;
+  align-self: center;
 }
 
 .right-container {
@@ -126,4 +130,54 @@ ul {
   height: 582px;
   width: 407px;
   margin: 10% 20% 10%;
+}
+
+.our-community-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  background-color: #F5F6F7;
+  height: 504px;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 298px;
+  height: 175px;
+  margin-left: 269px;
+  margin-right: 139px;
+}
+
+.user-card > img {
+  height: 45px;
+  width: 45px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-controls {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.slider-items {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.slider-items > img {
+  height: 244px;
+  width: 407px;
+  margin-right: 2%;
 }
