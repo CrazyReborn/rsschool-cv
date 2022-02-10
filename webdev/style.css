@@ -1,7 +1,10 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
 }
 .navbar > h1 {
   margin: 0;
@@ -67,7 +70,7 @@ a.active {
   font-size: 18px;
   margin: 1% 35% 1%;
   text-align: center;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .btn-get-started {
@@ -110,23 +113,23 @@ ul {
   width: 100%;
 }
 
-.left-container {
+.rappresent-block > .left-container {
   display: flex;
   width: 50%;
   font-weight: 400;
   justify-content: center;
 }
 
-.text-content {
+.rappresent-block > .left-container > .text-content {
   width:60%;
   align-self: center;
 }
 
-.right-container {
+.rappresent-block > .right-container {
   width: 50%;
 }
 
-.right-container > img {
+.rappresent-block > .right-container > img {
   height: 582px;
   width: 407px;
   margin: 10% 20% 10%;
@@ -168,6 +171,10 @@ ul {
   align-self: center;
 }
 
+.slider-controls > img:hover {
+  cursor: pointer;
+}
+
 .slider-items {
   position: relative;
   display: flex;
@@ -180,4 +187,33 @@ ul {
   height: 244px;
   width: 407px;
   margin-right: 2%;
+}
+
+.implement-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.implement-block > .right-container {
+  display: flex;
+  width: 50%;
+  justify-content: start;
+  align-items: center;
+}
+
+.implement-block > .right-container > .text-content {
+  width: 60%;
+}
+
+.implement-block > .left-container > img {
+  height: 582px;
+  width: 407px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-right: 18.5%;
+  margin-left: 30%;
+}
+
+.implement-block > .left-container {
+  width: 50%;
 }
