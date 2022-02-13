@@ -301,7 +301,15 @@ ul {
   background-color: #009CC2;
 }
 
-.download-buttons > span > img {
+.download-buttons > span > div {
+  flex-grow: 1;
+}
+
+.download-buttons > span > div:hover {
+  background-color: #00AFDB;
+}
+
+.download-buttons > span > div > img {
   transform: scale(0.5);
 }
 
