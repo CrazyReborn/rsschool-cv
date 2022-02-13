@@ -13,7 +13,7 @@ body {
 
 .navbar {
   position: absolute;
-  width: 100%;
+  width: 1600px;
 }
 
 .navbar-list {
@@ -54,7 +54,7 @@ a.active {
   background-image: url("./assets/bg-image.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 1600px;
   height: auto;
   color: white;
 }
@@ -110,7 +110,7 @@ ul {
 .rappresent-block {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 1600px;
 }
 
 .rappresent-block > .left-container {
@@ -142,6 +142,7 @@ ul {
   overflow: hidden;
   background-color: #F5F6F7;
   height: 504px;
+  width: 1600px;
 }
 
 .user-card {
@@ -173,6 +174,7 @@ ul {
 
 .slider-controls > img:hover {
   cursor: pointer;
+  filter: opacity(0.5);
 }
 
 .slider-items {
@@ -192,6 +194,7 @@ ul {
 .implement-block {
   display: flex;
   flex-direction: row;
+  width: 1600px;
 }
 
 .implement-block > .right-container {
@@ -225,7 +228,7 @@ ul {
   background-image: url('./assets/bg-image-2.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 1600px;
   height: auto;
 }
 
@@ -332,4 +335,8 @@ footer {
 
 p.credits {
   color: rgba(255, 255, 255, 0.5);
+}
+
+p {
+  font-weight: 300;
 }
